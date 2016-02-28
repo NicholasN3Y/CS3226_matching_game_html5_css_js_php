@@ -1,0 +1,93 @@
+body, header, footer, p, h1, h3, ul, ol, aside, nav  {
+	display: block;
+	margin: 5px;
+	padding:0;
+}
+
+nav, #Example1, #Example2, #Example3, #Example4, #Example5{
+	display: none;
+}
+
+#sandbox {
+	width: 90%;
+	background-color: rgba(123, 231, 111, .6);
+	text-align: center;
+	margin: 10px auto;
+	font-size: 30px;
+}
+
+#reset1, #reset2, #reset3, #reset4, #reset5{
+	margin: 10px 10px;
+	clear: both;
+	float: right;
+	background-image: url("https://openclipart.org/download/211789/matt-icons_media-shuffle.svg");	
+	background-repeat: no-repeat;
+	height: 40px;
+	width:40px;
+	cursor: pointer;
+	-webkit-transition: -webkit-transform 0.15s ; 
+}
+
+#reset1:hover, #reset2:hover, #reset3:hover, #reset4:hover, #reset5:hover{
+	-webkit-transform: scale(1.25);
+}
+
+
+
+
+img {
+	width: 100px;
+	heigh: 100px;
+}
+
+.sil {
+	-webkit-filter: contrast(0%) brightness(50%);
+}
+
+nav {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+li{
+	-webkit-transition: -webkit-transform 0.2s;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+#sandbox p {
+	padding: 10px 0;
+}
+
+table {
+	width: 100%;
+	valignL center;
+}
+
+tr{
+	height: 140px;
+}
+
+ul {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+li:hover {
+	color: rgb(125,125,125);
+	cursor: pointer;
+	-webkit-transform: scale(1.10);
+}
+header {
+	width: 100%;
+	font-size: 35px;
+	font-family: Helvetica, Tahoma ,serif;
+	font-style: italic;
+	text-align: center;
+}
+

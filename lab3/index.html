@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset = "utf-8">
+		<title> Lab 3: Interactive Matching Activity </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+	<div class="container-fluid">
+		<header>
+			<h1> Merlion's School Of Matching </h1>
+		</header>
+		<aside id="gen">
+			<fieldset>
+				<legend><img id='setting' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/WMF-Agora-Settings_BCBCBC.svg/1024px-WMF-Agora-Settings_BCBCBC.svg.png"></legend>
+					Size <b>n</b>: <select id="gensize"> 
+										<option value="" disabled="disabled" selected="selected">Please select the size</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+									</select>
+			</fieldset>		
+		</aside>
+		<div id="message">
+			<img id="match" src="images/match.png">
+			<img id="mismatch" src="images/mismatch.png">		
+		</div>
+		<section id="won"></section>			
+		<article id="scoreboard">
+		</article>
+		<div class='container-fluid'>
+		<section id="Example1">
+			<button id="reset1" onclick="startSequence()"></button>			
+			<h3 id="instruction">Match Pictures that are identical</h3>
+			<table id="dynamictable" class="row"></table>
+		</section>
+		</div>
+
+		<footer id="footer">
+			<a href="http://www.freepik.com">Designed by Freepik</a>
+			<a id="BackMenu" href="index.html">Back to Main Menu</a>
+			<a id="ProfileLink" href="../index.html"> Nicholas' Webpage</a>
+			<span id="copyright"> &copy; Nicholas </span>
+		</footer>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/ui/1.12.0-beta.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/matching.js"></script>
+	</div>
+	</body>
+</html>
